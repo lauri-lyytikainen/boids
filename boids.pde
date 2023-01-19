@@ -4,7 +4,7 @@ int fishAmount = 300;
 void setup()
 {
    size(800, 600,P3D); // Use this line to run in windowed mode
-   fullScreen(P3D); // Use this line to run in fullScreen
+   // fullScreen(P3D); // Use this line to run in fullScreen
    fishes = new ArrayList();
    for (int i = 0; i < fishAmount; i++)
    {
